@@ -1,0 +1,148 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    
+    }        /* BACKGRAOUND */
+    .all{
+        background-color:rgb(12, 1, 26) ;
+        width: 100% ;
+        height: 42rem;
+
+    }        /* CONTAINER */
+    .kulli1{
+        background-color: rgba(30, 4, 65, 0.603);
+        position: absolute;
+        width: 50% ;
+        height: 19rem;
+        border-radius: 0.35rem;
+        margin-left: 18rem;
+        margin-top: 10rem;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }            /* HEADER */
+    .kulli1 h2{
+        margin-left: 3rem;
+        margin-top: 3rem;
+
+    }
+    .kulli1 h2 span{
+        color: rgb(238, 13, 170);
+    }     /* PRAGRAPH */
+    .kulli1 p{
+        margin-left: 3rem;
+        margin-top: 1.4rem;
+        font-size: 14px;
+        color: rgb(204, 204, 235);
+        font-weight: 100;
+        margin-bottom: 3.5rem;
+    }           /* STASTISTICS NUMBERS */
+    #kulli3 {
+        position: absolute;
+        display: flex;
+        font-family: 'Macondo', cursive;
+    }
+    
+    #com
+    {
+        position: absolute;
+     
+        margin-left: 3rem;
+    }
+    
+    #tem {
+        position: absolute;
+        margin-left: 10rem;
+    
+    }
+    
+    #qu{
+        position: absolute;
+        margin-left: 16rem;
+    }
+    
+    h4 span{
+        color: rgba(220, 217, 241, 0.651);
+        font-size: 12px;
+        font-weight: 100;
+        font-family: monospace;
+    }
+                 
+    .kulli2{             /* Image */
+        background-image: linear-gradient( rgba(238, 13, 170, 0.589), rgba(238, 13, 170, 0.479)), url(./image-header-desktop.jpg) ;
+        background-size: cover;
+        position: absolute;
+        width: 27.5% ;
+        height: 19rem;
+        border-bottom-right-radius: 0.35rem;
+        border-top-right-radius: 0.35rem;
+
+        margin-left: 43rem;
+        margin-top: 10rem;
+    }
+
+    @media only screen and (max-width: 600px){
+
+        .all{
+            height: 56rem;
+        } 
+        .kulli1{
+            
+            position: absolute;
+            width: 20em ;
+            height: 24.5rem;
+            border-radius: 0.35rem;
+            margin-left: 5rem;
+            margin-top: 23rem;
+    
+        }
+        .kulli2{             /* Image */
+            background-image: linear-gradient( rgba(238, 13, 170, 0.589), rgba(238, 13, 170, 0.479)), url(./image-header-mobile.jpg) ;
+            background-size: cover;
+            position: absolute;
+            width: 20em;
+            height: 19rem;
+            border-top-left-radius: 0.35rem;
+            border-top-right-radius: 0.35rem;
+            border-bottom-right-radius: 0rem;
+    
+            margin-left: 5rem;
+            margin-top: 5rem; 
+        }
+        .kulli1 p {
+            text-align: center;
+            margin-left: 0rem;
+        
+        }
+        .kulli1 h2 {
+            text-align: center;
+            margin-left: 0rem;
+        }
+        #kulli3 {
+            position: absolute;
+            display: inline;    
+        }    
+    #com
+    {
+
+     margin-top: -2rem;
+     margin-left: 8rem;
+    }
+    #tem {
+        margin-left: 8rem;
+        margin-top: 2rem;
+    
+    }
+     #qu{
+        
+        margin-top: 6rem;
+        margin-left: 8rem;
+    }
+    h4 span{
+      margin-left: -0.8rem;
+      font-size: 0.86rem;
+    }     
+
+}
