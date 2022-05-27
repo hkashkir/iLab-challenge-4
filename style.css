@@ -92,10 +92,10 @@
             
             position: absolute;
             width: 20em ;
-            height: 24.5rem;
+            height: 27.5rem;
             border-radius: 0.35rem;
             margin-left: 5rem;
-            margin-top: 23rem;
+            margin-top: 18rem;
     
         }
         .kulli2{             /* Image */
@@ -103,22 +103,24 @@
             background-size: cover;
             position: absolute;
             width: 20em;
-            height: 19rem;
+            height: 14rem;
             border-top-left-radius: 0.35rem;
             border-top-right-radius: 0.35rem;
             border-bottom-right-radius: 0rem;
     
             margin-left: 5rem;
-            margin-top: 5rem; 
+            margin-top: 4rem; 
         }
         .kulli1 p {
             text-align: center;
             margin-left: 0rem;
-        
+            font-size: 0.94rem;
         }
         .kulli1 h2 {
             text-align: center;
             margin-left: 0rem;
+            font-size: 1.8rem;
+    
         }
         #kulli3 {
             position: absolute;
@@ -127,17 +129,17 @@
     #com
     {
 
-     margin-top: -2rem;
+     margin-top: -1.5rem;
      margin-left: 8rem;
     }
     #tem {
-        margin-left: 8rem;
-        margin-top: 2rem;
+        margin-left: 8.2rem;
+        margin-top: 2.8rem;
     
     }
      #qu{
         
-        margin-top: 6rem;
+        margin-top: 7.2rem;
         margin-left: 8rem;
     }
     h4 span{
